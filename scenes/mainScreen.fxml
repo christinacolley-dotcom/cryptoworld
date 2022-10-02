@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #25292b;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.mainScreen_Controller">
+   <children>
+      <TextField fx:id="searchBox" layoutX="8.0" layoutY="14.0" prefHeight="25.0" prefWidth="276.0" />
+      <Button layoutX="288.0" layoutY="14.0" mnemonicParsing="false" onAction="#searchTitle" text="Search" />
+      <Button fx:id="btn_account" layoutX="885.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToAnalyticalView" text="Analytical View" />
+      <Button fx:id="btn_foryou" layoutX="812.0" layoutY="14.0" mnemonicParsing="false" text="For You" />
+      <Button fx:id="btn_categories" layoutX="721.0" layoutY="14.0" mnemonicParsing="false" text="Categories" />
+      <Button fx:id="btn_history_prev" layoutX="27.0" layoutY="240.0" mnemonicParsing="false" onAction="#historyPrevious" text="&lt;" />
+      <Button fx:id="btn_history_next" layoutX="961.0" layoutY="241.0" mnemonicParsing="false" onAction="#historyNext" text="&gt;" />
+      <Label fx:id="label_watchHistory_Three" alignment="CENTER" layoutX="420.0" layoutY="327.0" prefHeight="27.0" prefWidth="160.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="label_watchHistory_Four" alignment="CENTER" layoutX="611.0" layoutY="327.0" prefHeight="27.0" prefWidth="160.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="label_watchHistory_Two" alignment="CENTER" layoutX="240.0" layoutY="327.0" prefHeight="27.0" prefWidth="160.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="146.0" prefHeight="27.0" prefWidth="204.0" text="WATCH HISTORY" textFill="WHITE">
+         <font>
+            <Font name="Microsoft JhengHei Bold" size="20.0" />
+         </font></Label>
+      <Label fx:id="label_watchHistory_Five" alignment="CENTER" layoutX="794.0" layoutY="327.0" prefHeight="27.0" prefWidth="160.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="label_watchHistory_One" alignment="CENTER" layoutX="58.0" layoutY="327.0" prefHeight="27.0" prefWidth="160.0" stylesheets="@style.css" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Nirmala UI Bold" size="12.0" />
+         </font></Label>
+      <ChoiceBox fx:id="choiceBox_SelectYear" layoutX="821.0" layoutY="147.0" prefWidth="150.0" />
+      <Label layoutX="793.0" layoutY="151.0" text="Year:" textFill="WHITE" />
+      <ImageView fx:id="img_watchHistory_One" fitHeight="150.0" fitWidth="200.0" layoutX="88.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exampleCover.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img_watchHistory_Two" fitHeight="150.0" fitWidth="200.0" layoutX="270.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exampleCover.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img_watchHistory_Three" fitHeight="150.0" fitWidth="200.0" layoutX="451.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exampleCover.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img_watchHistory_Four" fitHeight="150.0" fitWidth="200.0" layoutX="641.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exampleCover.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="img_watchHistory_Five" fitHeight="150.0" fitWidth="200.0" layoutX="824.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exampleCover.jpg" />
+         </image></ImageView>
+      <Button layoutX="27.0" layoutY="65.0" mnemonicParsing="false" onAction="#userBewareTitles" text="Titles to Avoid" />
+      <Button layoutX="130.0" layoutY="65.0" mnemonicParsing="false" onAction="#viewersChoice" text="Viewers Choice" />
+   </children>
+</Pane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #25292b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.analyticalMovies_Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchAnalyticalMain" text="Back" />
+      <Label layoutX="429.0" layoutY="11.0" text="Movies" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font></Label>
+      <Label layoutX="87.0" layoutY="123.0" text="Top Rated Movie:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="24.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="494.0" layoutY="123.0" prefHeight="28.0" prefWidth="462.0" text="Most Popular During Halloween:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="24.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="228.0" text="Top 10 Most Viewed" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="24.0" />
+         </font></Label>
+      <Label layoutX="845.0" layoutY="19.0" text="Other:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_One" alignment="CENTER" layoutX="368.0" layoutY="300.0" prefHeight="17.0" prefWidth="262.0" text="1." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Two" alignment="CENTER" layoutX="368.0" layoutY="317.0" prefHeight="17.0" prefWidth="262.0" text="2." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Three" alignment="CENTER" layoutX="368.0" layoutY="334.0" prefHeight="17.0" prefWidth="262.0" text="3." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Four" alignment="CENTER" layoutX="368.0" layoutY="351.0" prefHeight="17.0" prefWidth="262.0" text="4." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Five" alignment="CENTER" layoutX="368.0" layoutY="368.0" prefHeight="17.0" prefWidth="262.0" text="5." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Six" alignment="CENTER" layoutX="368.0" layoutY="385.0" prefHeight="17.0" prefWidth="262.0" text="6." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Seven" alignment="CENTER" layoutX="368.0" layoutY="402.0" prefHeight="17.0" prefWidth="262.0" text="7." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Eight" alignment="CENTER" layoutX="368.0" layoutY="419.0" prefHeight="17.0" prefWidth="262.0" text="8." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Nine" alignment="CENTER" layoutX="368.0" layoutY="436.0" prefHeight="17.0" prefWidth="262.0" text="9." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="topTen_Ten" alignment="CENTER" layoutX="368.0" layoutY="453.0" prefHeight="17.0" prefWidth="262.0" text="10." textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="label_topRatedMovie" alignment="CENTER" layoutX="72.0" layoutY="164.0" prefHeight="17.0" prefWidth="262.0" text="Movie 1" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Label fx:id="label_mostPopularHalloween" alignment="CENTER" layoutX="594.0" layoutY="164.0" prefHeight="17.0" prefWidth="262.0" text="Movie 2" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <ChoiceBox fx:id="choiceBox_SelectYear" layoutX="760.0" layoutY="261.0" prefHeight="27.0" prefWidth="112.0" />
+      <Label layoutX="631.0" layoutY="266.0" text="Filter by Year:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="13.0" />
+         </font></Label>
+      <Button layoutX="897.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchCultClassics" text="Cult Classics" />
+   </children>
+</Pane>

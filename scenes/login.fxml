@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #25292b#25292b;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.login_Controller">
+   <children>
+      <Label layoutX="158.0" layoutY="85.0" text="Select User ID" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <ChoiceBox fx:id="dropdown_UserID" layoutX="157.0" layoutY="182.0" prefHeight="27.0" prefWidth="287.0" />
+      <Button fx:id="btn_Continue" layoutX="267.0" layoutY="260.0" mnemonicParsing="false" onAction="#continueLogin" text="Continue" />
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #25292b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.analyticalMain_Controller">
+   <children>
+      <Button layoutX="400.0" layoutY="189.0" minWidth="67.0" mnemonicParsing="false" onAction="#switchAnalyticalMovies" prefHeight="39.0" prefWidth="200.0" text="Movies" />
+      <Button layoutX="400.0" layoutY="249.0" minWidth="67.0" mnemonicParsing="false" onAction="#switchAnalyticalShows" prefHeight="39.0" prefWidth="200.0" text="TV Shows" />
+      <Button layoutX="400.0" layoutY="310.0" minWidth="67.0" mnemonicParsing="false" onAction="#switchAnalyticalUsers" prefHeight="39.0" prefWidth="200.0" text="Users" />
+      <Button layoutX="400.0" layoutY="372.0" minWidth="67.0" mnemonicParsing="false" onAction="#switchAnalyticalGenres" prefHeight="39.0" prefWidth="200.0" text="Genres" />
+      <Label layoutX="350.0" layoutY="41.0" text="Analytical View" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+<!--            <Image url="@../../../../../../../Downloads/315_project2-mainDev/315_project2-mainDev/resources/images/logo.png" />-->
+         </image>
+      </ImageView>
+      <Button layoutX="855.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchUserView" text="Switch To User View" />
+       <Button layoutX="400.0" layoutY="434.0" mnemonicParsing="false" onAction="#switchPairs" prefHeight="39.0" prefWidth="200.0" text="Hollywood Pairs" />
+   </children>
+</Pane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #25292b;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.analyticalGenres_Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchAnalyticalMain" text="Back" />
+      <Label layoutX="445.0" layoutY="33.0" text="Genres" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font></Label>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="200.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+<!--            <Image url="@logo2.png" />-->
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="150.0" text="Most Watched Western:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label layoutX="613.0" layoutY="150.0" text="Most Watched Fantasy:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label layoutX="349.0" layoutY="392.0" text="Most Watched Action:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="label_mostWestern" alignment="CENTER" layoutX="23.0" layoutY="215.0" prefHeight="30.0" prefWidth="355.0" text="Movie" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="label_mostFantasy" alignment="CENTER" layoutX="626.0" layoutY="210.0" prefHeight="40.0" prefWidth="290.0" text="Movie" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="label_mostAction" alignment="CENTER" layoutX="332.0" layoutY="442.0" prefHeight="30.0" prefWidth="336.0" text="Movie" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+   </children>
+</Pane>

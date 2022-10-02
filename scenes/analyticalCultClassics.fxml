@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #25292b;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group3.javagui.analyticalCultClassics_Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchAnalyticalMovies" text="Back" />
+      <Label fx:id="lbl1" layoutX="135.0" layoutY="181.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl2" layoutX="135.0" layoutY="231.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl3" layoutX="135.0" layoutY="285.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl4" layoutX="135.0" layoutY="337.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl5" layoutX="135.0" layoutY="383.0" prefHeight="30.0" prefWidth="88.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl6" layoutX="726.0" layoutY="181.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl7" layoutX="726.0" layoutY="234.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl8" layoutX="726.0" layoutY="285.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl9" layoutX="726.0" layoutY="337.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label fx:id="lbl10" layoutX="726.0" layoutY="383.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Typewriter Regular" size="25.0" />
+         </font></Label>
+      <Label layoutX="391.0" layoutY="39.0" text="Cult Classics" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font></Label>
+   </children>
+</Pane>
